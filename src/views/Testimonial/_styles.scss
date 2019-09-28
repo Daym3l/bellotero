@@ -1,0 +1,99 @@
+@import "../../helpers/helpers.colors.scss";
+.title_label {
+  margin-top: 10%;
+  background-color: $primary;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: $white;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+}
+
+.customer_card {
+  background-color: $white;
+  margin-top: 11%;
+  height: auto;
+  position: relative;
+}
+
+.left-area {
+  padding-top: 32px;
+  h3 {
+    margin-left: 24px;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: $primaryText;
+  }
+  label {
+    margin-left: 24px;
+    font-size: 14px;
+    color: $secondaryText;
+  }
+}
+
+p {
+  padding-top: 32px;
+  margin-right: 32px;
+  color: $primaryText;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  text-align: justify;
+}
+
+.pag {
+  position: absolute;
+  top: 97%;
+  right: 10%;
+  background-color: $primary;
+  width: 120px;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.69px;
+  color: $white;
+  text-align: center;
+}
+.pag_back {
+    position: absolute;
+    top: 96%;
+    right: 2%;
+    background-color: $primary;
+    width: 56px;
+    padding: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.69px;
+    color: $white;
+    text-align: center;
+  }
+  .pag_next {
+    position: absolute;
+    top: 96%;
+    right: -5%;
+    background-color: $primary;
+    width: 56px;
+    padding: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.69px;
+    color: $white;
+    text-align: center;
+  }
