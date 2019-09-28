@@ -3,22 +3,14 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import * as belloteroActions from "../../store/actions";
 import ErrorPage from "../../errors/error";
-import { makeStyles } from "@material-ui/core/styles";
 import Slider from "@material-ui/core/Slider";
 
 import "./_styles.scss";
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    width: 300
-  },
-  margin: {
-    height: theme.spacing(3)
-  }
-}));
+
 
 const Configurator = props => {
-  const classes = useStyles();
+
   const { pageData, error, getData } = props;
   const [title, setTitle] = React.useState("");
   const [name, setName] = React.useState("");
