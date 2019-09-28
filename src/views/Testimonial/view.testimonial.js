@@ -53,11 +53,11 @@ const Testimonial = props => {
           {contentData.length > 0 && (
             <div className="customer_card">
               <div className="row">
-                <div className="col-4 left-area">
+                <div className="col-md-4 left-area">
                   <h3>{contentData[page].name}</h3>
                   <label>{contentData[page].position}</label>
                 </div>
-                <div className="col-8">
+                <div className="col-md-8">
                   <p>{contentData[page].comment}</p>
                   <div className="pag">
                     {page + 1}/{reviewSize}

@@ -13,6 +13,8 @@ const reducer = (state = initState, action) => {
       return state;
     case actionsTypes.LOAD_PAGE_ONE:
       return state;
+    case actionsTypes.LOAD_PAGE_TWO:
+      return state;
     case actionsTypes.ON_CLICK_HANDLER:
       let data = state.navItems;
       data.forEach(element => {
@@ -36,6 +38,13 @@ const reducer = (state = initState, action) => {
         page_two: null,
         error: false
       };
+      case actionsTypes.SET_PAGE_TWO_CONTENT:
+          return {
+            ...state,
+            page_one: null,
+            page_two: action.pageContent,
+            error: false
+          };
     case actionsTypes.CONECTION_FAILED:
       return {
         ...state,

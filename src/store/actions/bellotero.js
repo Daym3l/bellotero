@@ -51,6 +51,13 @@ export const setPageOne = pageContent => {
   };
 };
 
+export const setPageTwo = pageContent => {
+  return {
+    type: actionsTypes.SET_PAGE_TWO_CONTENT,
+    pageContent: pageContent
+  };
+};
+
 export const loadPageOne = () => {
   return dispatch => {
     let jsonData = [];
@@ -68,8 +75,20 @@ export const loadPageOne = () => {
   };
 };
 
+
 export const loadPageTwo = () => {
-  return {
-    type: actionsTypes.LOAD_PAGE_TWO
+  return dispatch => {
+    let jsonData = [];
+    Axios.get(
+      "https://raw.githubusercontent.com/Bernabe-Felix/Bellotero/master/page2.json"
+    ).then(res => {
+        if (res.status === 200 && res.data) {
+          jsonData = res.data;
+          dispatch(setPageTwo(jsonData));
+        }
+      })
+      .catch(error => {
+        dispatch(connectionFail());
+      });
   };
 };

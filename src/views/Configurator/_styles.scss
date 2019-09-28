@@ -1,0 +1,133 @@
+@import "../../helpers/helpers.colors.scss";
+.title_label_con {
+  margin-top: 30%;
+  background-color: $primary;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: $white;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+}
+
+.name_label_con {
+  background-color: $primary;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: $white;
+  font-size: 36px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+}
+
+.p_con {
+  padding-top: 32px;
+  color: $primaryText;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  text-align: justify;
+}
+
+.panel_right {
+  margin-top: 23%;
+  margin-left: 10%;
+  margin-right: 10%;
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+}
+
+.field {
+  border-radius: 4px;
+  border: solid 1px #d6dcff;
+  background-color: $background;
+  width: 50%;
+  float: right;
+  span {
+    margin-left: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.51px;
+    color: $secondaryText;
+  }
+  label {
+    font-size: 36px;
+    font-weight: 500;
+    margin-right: 4px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: 0.77px;
+    text-align: right;
+    float: right;
+  }
+}
+
+.field2 {
+  border-radius: 4px;
+  border: solid 1px #d6dcff;
+  background-color: $background;
+  width: 55px;
+  text-align: right;
+  float: right;
+
+  span {
+    font-size: 36px;
+    font-weight: 500;
+    margin-right: 4px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: 0.77px;
+    text-align: right;
+  }
+}
+.result {
+  
+  color: $primary;
+  font-size: 36px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: 1.11 !important;
+  letter-spacing: 0.77px !important;
+  width: 100%;
+    text-align: right;
+  span {
+    font-size: 72px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+}
+
+.sub_result {
+ float: right;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $primaryText;
+}
