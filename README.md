@@ -23,11 +23,11 @@ https://github.com/Daym3l/maniak.git
 
 ```
 
-- Run the depjoy script.
+- Run the deploy script.
 ```
  npm run prod
 
 ```
-  Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+ - Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 
