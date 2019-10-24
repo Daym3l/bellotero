@@ -26,27 +26,10 @@ Run script
 
 
 
-### `Deploy`
+### `View Project`
 
-- Install serve package.
-
-```
-
-Run script
-
- npm i serve -g
-
-```
-
-- Run the deploy script.
-```
-
-Run script
+"http://daym3l.github.io/maniak"
 
 
- npm run prod
-
-```
- - Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 
 
