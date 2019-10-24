@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "maniak",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://daym3l.github.io/maniak",
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@material-ui/icons": "^4.4.3",
@@ -23,6 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "prod": "serve -s build -p 5000"
   },
   "eslintConfig": {
@@ -41,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "redux-devtools": "^3.5.0"
   }
 }
