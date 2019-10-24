@@ -1,13 +1,13 @@
 ## Quick Start
 
-See the Example [`Bellotero`](http://daym3l.github.io/bellotero/)
+See the Example [`Bellotero`](http://daym3l.github.io/maniak/)
 
 ===
 
 ### `Clone the project.`
 
 ```
-https://github.com/Daym3l/bellotero.git
+https://github.com/Daym3l/maniak.git
 
 ```
 ```
