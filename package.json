@@ -2,7 +2,7 @@
   "name": "bellotero",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://daym3l.github.io/maniak",
+  "homepage": "http://daym3l.github.io/bellotero",
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@material-ui/icons": "^4.4.3",
