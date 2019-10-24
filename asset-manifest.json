@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/maniak/static/css/main.1309eb5b.chunk.css",
+    "main.js": "/maniak/static/js/main.f5b4fd2f.chunk.js",
+    "main.js.map": "/maniak/static/js/main.f5b4fd2f.chunk.js.map",
+    "runtime~main.js": "/maniak/static/js/runtime~main.d458c30b.js",
+    "runtime~main.js.map": "/maniak/static/js/runtime~main.d458c30b.js.map",
+    "static/css/2.266e55a5.chunk.css": "/maniak/static/css/2.266e55a5.chunk.css",
+    "static/js/2.51bd6084.chunk.js": "/maniak/static/js/2.51bd6084.chunk.js",
+    "static/js/2.51bd6084.chunk.js.map": "/maniak/static/js/2.51bd6084.chunk.js.map",
+    "index.html": "/maniak/index.html",
+    "precache-manifest.a9db75a80f12eab9574a34d3f8886133.js": "/maniak/precache-manifest.a9db75a80f12eab9574a34d3f8886133.js",
+    "service-worker.js": "/maniak/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/maniak/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.1309eb5b.chunk.css.map": "/maniak/static/css/main.1309eb5b.chunk.css.map"
+  }
+}
