@@ -1,6 +1,6 @@
 ## Quick Start
 
-See the Example [`Profile image`](http://daym3l.github.io/bellotero/)
+See the Example [`Bellotero`](http://daym3l.github.io/bellotero/)
 
 ===
 
