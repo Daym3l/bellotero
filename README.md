@@ -5,7 +5,7 @@
 ### `Clone the project.`
 
 ```
-https://github.com/Daym3l/maniak.git
+https://github.com/Daym3l/bellotero.git
 
 ```
 ```
@@ -28,7 +28,7 @@ Run script
 
 ### `View Project`
 
-"http://daym3l.github.io/maniak"
+"http://daym3l.github.io/bellotero"
 
 
 
