@@ -1,5 +1,7 @@
 ## Quick Start
 
+See the Example [`Profile image`](http://daym3l.github.io/bellotero/)
+
 ===
 
 ### `Clone the project.`
@@ -26,9 +28,6 @@ Run script
 
 
 
-### `View Project`
-
-"http://daym3l.github.io/bellotero"
 
 
 
